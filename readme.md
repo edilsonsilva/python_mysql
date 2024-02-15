@@ -19,9 +19,9 @@ mkdir dadosclientes
 ```
 
 #### Criação do container
-<center>
+<p style="text-align:center">
 <img src="https://cdn.iconscout.com/icon/free/png-256/free-docker-226091.png" height="100" width="100">
-</center>
+</p>
 
 ```shell
 docker run --name srv-mysql -v ~/dadosclientes:/var/lib/mysql -p 3784:3306 -e MYSQL_ROOT_PASSWORD=senac@123 -d mysql
